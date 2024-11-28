@@ -8,8 +8,8 @@ public class Dolphin extends Aquatic{
         this.swimmingSpeed = 0.0f;
     }
 
-    public Dolphin(String family, String name, int age, String city, boolean isMammal, String habitat, float swimmingSpeed){
-        super(family, name, age, city, isMammal, habitat);
+    public Dolphin(String family, String name, int age, boolean isMammal, String habitat, float swimmingSpeed){
+        super(family, name, age, isMammal, habitat);
         this.swimmingSpeed = swimmingSpeed;
     }
 

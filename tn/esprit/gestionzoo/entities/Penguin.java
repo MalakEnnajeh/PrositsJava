@@ -8,8 +8,8 @@ public class Penguin extends Aquatic{
         this.swimmingDepth = 0.0f;
     }
 
-    public Penguin(String family, String name, int age, String city, boolean isMammal, String habitat, float swimmingDepth){
-        super(family, name, age, city, isMammal, habitat);
+    public Penguin(String family, String name, int age, boolean isMammal, String habitat, float swimmingDepth){
+        super(family, name, age, isMammal, habitat);
         this.swimmingDepth = swimmingDepth;
     }
 
