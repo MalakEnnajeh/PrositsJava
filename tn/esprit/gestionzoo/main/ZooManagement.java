@@ -1,6 +1,8 @@
+package tn.esprit.gestionzoo.main;
+
 import java.util.Scanner;
 
-public class ZooManagement{
+public class ZooManagement {
     private int nbrCages = 20;
     private String zooName = "My zoo";
 
