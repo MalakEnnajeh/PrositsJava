@@ -4,7 +4,10 @@ public class Animal {
     private String family;
     private String name;
     private int age;
-    private boolean isMammal ;
+    private boolean isMammal;
+
+    public Animal() {}
+
     public Animal(String family, String name, int age, boolean isMammal) {
         this.family = family;
         this.name = name;
@@ -12,6 +15,7 @@ public class Animal {
             this.age = age;
         }
         else System.out.println("Age must be positive");
+
         this.isMammal = isMammal;
     }
     public String getFamily() {
@@ -41,9 +45,9 @@ public class Animal {
     public void setMammal(boolean mammal) {
         isMammal = mammal;
     }
-    @Override
+
     public String toString() {
-        return "Animal [family=" + family + ", name=" + name + ", age=" + age+ ", isMammal=" + isMammal + "]";
+        return "family: " + family + "| name: " + name + "| age: " + age + "| isMammal: " + isMammal;
     }
 
 }

@@ -3,43 +3,51 @@ package src.tn.esprit.gestionzoo.main;
 import java.util.Scanner;
 import  src.tn.esprit.gestionzoo.entities.*;
 
-public class Main {
+
+class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Entrer le nom du zoo");
+        int nbtCages = sc.nextInt();
         String zooName = sc.nextLine();
-        System.out.println("Entrer le nombre de cage");
-        int nbCage = sc.nextInt();
-        ZooManagement default_zoo = new ZooManagement();
-        ZooManagement zoo_management = new ZooManagement(nbCage , zooName);
-
-        System.out.println(default_zoo);
-        System.out.println(zoo_management);
-
+        System.out.println(new ZooManagement(nbtCages, zooName));
         Animal lion = new Animal("Felidae", "lion", 5, true);
         Animal girafe = new Animal("Giraffidae", "girafe", 8, true);
         Animal crocodile = new Animal("reptiles", "crocodile", 95, false);
         Animal eagle = new Animal("birds", "eagle", 12, false);
-        //constructors are more simple
-        Animal[] animals = new Animal[] {lion, girafe, crocodile, eagle};
+        Animal[] animals = new Animal[25];
+        Zoo zoo = new Zoo(animals , zooName , "Nice" );
 
-        Zoo zoo = new Zoo(animals , zooName , "Nice" , nbCage);
-        System.out.println(zoo);
-        //System.out.println(myZoo.toString());
-        //the output is the same
+        System.out.println(zoo.addAnimal(lion));
+        System.out.println(zoo.addAnimal(lion));
+        System.out.println(zoo.addAnimal(girafe));
+        System.out.println(zoo.addAnimal(crocodile));
+        System.out.println(zoo.addAnimal(eagle));
 
+
+        Zoo myZoo = new Zoo(animals, "myZoo", "USA");
+        myZoo.displayZoo();
+
+        System.out.println(myZoo);
 
         System.out.println(lion);
+        zoo.countAnimals();
 
-        Animal panda = new Animal("Panda", "panda", 5, true);
-        System.out.println(zoo.addAnimal(panda));
-        zoo.displayZoo();
-        System.out.println(zoo);
-        System.out.println(zoo.searchAnimal(panda));
-        Zoo zoo2 = new Zoo(animals , "asphyxia" , "lyon" , 23);
+        System.out.println(zoo.searchAnimal(lion));
 
-        System.out.println(Zoo.comparerZoo(zoo , zoo2 ));
-        sc.close();
+        Dolphin dolphin = new Dolphin();
+        Penguin penguin = new Penguin();
+        Terrestrial terrestrial = new Terrestrial();
+        Aquatic aquatic = new Aquatic();
 
+        Aquatic dodo = new Dolphin("aquatic","dolphin",8,true,"ocean",35);
+        Aquatic pengo = new Penguin("aquatic","penguin",9,false,"ice",10);
+        Terrestrial atsushi = new Terrestrial("terrestrial","tiger",18,true,4);
+        System.out.println(dodo);
+        System.out.println(pengo);
+        System.out.println(atsushi);
+
+        aquatic.swim();
+        dodo.swim();
+        pengo.swim();
     }
 }
