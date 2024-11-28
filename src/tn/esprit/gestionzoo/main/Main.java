@@ -1,5 +1,8 @@
-package src;
+package src.tn.esprit.gestionzoo.main;
+
 import java.util.Scanner;
+import  src.tn.esprit.gestionzoo.entities.*;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

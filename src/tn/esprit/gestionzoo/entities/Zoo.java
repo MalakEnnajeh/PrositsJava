@@ -1,10 +1,11 @@
-package src;
+package src.tn.esprit.gestionzoo.entities;
+
 public class Zoo {
-    Animal[] animals = new Animal[25];
-    String name;
-    String city;
-    int nbrCages;
-    int counter=0 ;
+    private Animal[] animals = new Animal[25];
+    private String name;
+    private String city;
+    private int nbrCages;
+    private int counter=0 ;
     public Zoo(Animal[] animals, String name, String city, int nbrCages) {
         if (animals != null) {
             for (int i = 0; i < animals.length && i < nbrCages; i++) {
@@ -12,10 +13,28 @@ public class Zoo {
                 this.counter++;
             }
         }
-        this.name = name;
+        if (name != null) {
+            this.name = name;
+        }
+        else System.out.println(name + " cannot be empty");
         this.city = city;
         this.nbrCages = nbrCages;
 
+    }
+    public Animal[] getAnimal () {
+        return animals;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getCity() {
+        return city;
+    }
+    public void setName(String newName) {
+        if (newName != null) {
+            name = newName;
+        }
+        else System.out.println(name + " cannot be empty");
     }
 
     public void displayZoo(){
@@ -25,14 +44,14 @@ public class Zoo {
     public  String toString (){
         StringBuilder animals_display= new StringBuilder();
         for (int i = 0; i < counter; i++) {
-            animals_display.append(animals[i].name).append(" ");
+            animals_display.append(animals[i].getName()).append(" ");
         }
 
         return "Name: " + name+" | City: " + city+" | NbrCages: " + nbrCages + " | Animal: [" + animals_display+"]";
     }
 
     public Boolean addAnimal(Animal animal){
-        if (counter<nbrCages && searchAnimal(animal)==-1){
+        if (!isZooFull() && searchAnimal(animal)==-1){
             animals[counter] = animal;
             counter++;
             return true;
@@ -64,7 +83,7 @@ public class Zoo {
     public int searchAnimal(Animal animal){
         int i = 0 ;
         while (i< counter ){
-            if (animals[i].name.equals(animal.name )){
+            if (animals[i].getName().equals(animal.getName() )){
                 break;
             }
             i++;
