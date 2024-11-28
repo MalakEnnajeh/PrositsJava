@@ -34,7 +34,7 @@ public class Zoo {
                     this.name = name;
                     break;
                 }
-                System.out.println("Name cannot be empty, please enter a valid name!");
+                System.out.println("Name cannot be empty, enter a valid name!");
             }
         }
     }
