@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebc82677-40d1-45a5-8bbd-1166e1bd8586" name="Changes" comment="prosit 8">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tn/esprit/gestionEmployees/entities/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tn/esprit/gestionEmployees/entities/SocieteArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tn/esprit/gestionEmployees/interfaces/IGestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/entities/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/entities/Aquatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/entities/Dolphin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/entities/Penguin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/entities/Terrestrial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/entities/Zoo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/enumerations/Food.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/exceptions/InvalidAgeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/exceptions/ZooFullException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/interfaces/Carnivore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/interfaces/Herbivore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/interfaces/Omnivore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tn/esprit/gestionEmployees/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tn/esprit/gestionzoo/main/ZooManagement.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="prosit8" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MalakEnnajeh"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MalakEnnajeh/PrositsJava.git",
+    "accountId": "536dc864-ce52-4b7c-bd06-36a828705995"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2pUs5agWGjJ2QrKG5JHpYyqKtPJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "prosit9",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/malak/OneDrive/Bureau/3A59/Java/JavaProsits/PrositsJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebc82677-40d1-45a5-8bbd-1166e1bd8586" name="Changes" comment="" />
+      <created>1732831805729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732831805729</updated>
+      <workItem from="1732831806874" duration="3168000" />
+    </task>
+    <task id="LOCAL-00001" summary="prosit 7">
+      <option name="closed" value="true" />
+      <created>1732831954139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732831954139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="prosit 8">
+      <option name="closed" value="true" />
+      <created>1732834397518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732834397518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prosit 7" />
+    <MESSAGE value="prosit 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="prosit 8" />
+  </component>
+</project>
